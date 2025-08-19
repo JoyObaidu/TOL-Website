@@ -4,6 +4,7 @@ import Partner from "@/components/Partner";
 import WhatWeDo from "@/components/WhatDoWeDo";
 import WhyYouShouldJoin from "@/components/WhyYoushouldJoin";
 import Bootcamp from "@/components/Bootcamps";
+import RecommendedJobs from "@/components/Jobs";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <WhatWeDo />
       <WhyYouShouldJoin />
       <Bootcamp />
+      <RecommendedJobs />
     </div>
   );
 }

@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-4 z-20 w-full flex justify-center">
-      <div className="w-full mx-auto bg-white md:max-w-7xl md:rounded-3xl md:shadow-md px-6 flex justify-between items-center py-3">
+      <div className="max-w-lg mx-auto bg-white md:max-w-max md:rounded-4xl md:shadow-md px-6 flex justify-between items-center py-6">
         {/* Logo */}
         <Image
           src="/logos/tol-logo.png"
