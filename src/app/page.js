@@ -5,6 +5,11 @@ import WhatWeDo from "@/components/WhatDoWeDo";
 import WhyYouShouldJoin from "@/components/WhyYoushouldJoin";
 import Bootcamp from "@/components/Bootcamps";
 import RecommendedJobs from "@/components/Jobs";
+import TeamSection from "@/components/Team";
+import TestimonialsSection from "@/components/Testimonials";
+import UpcomingEvents from "@/components/Events";
+import Gallery from "@/components/Gallery";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -15,6 +20,10 @@ export default function Home() {
       <WhyYouShouldJoin />
       <Bootcamp />
       <RecommendedJobs />
+      <TeamSection />
+      <TestimonialsSection />
+      <UpcomingEvents />
+      <Gallery />
     </div>
   );
 }

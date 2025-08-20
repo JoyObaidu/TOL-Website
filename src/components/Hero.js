@@ -9,9 +9,33 @@ export default function Hero() {
 
       {/* Grid: Content + Image */}
       <div className="relative z-10 top-30 md:top-20 grid grid-cols-1 md:grid-cols-2 gap-8 items-center w-full max-full">
-        {/* Left: Content */}
+      
+        <Image
+        src="/Bulb 2.png"
+        width={24}
+        height={24}
+        alt="bulb"
+        />
+
+         <Image
+        src="/Bulb 2.png"
+        width={24}
+        height={24}
+        alt="bulb"
+        />
+           {/* Left: Content */}
         <div className="flex flex-col justify-center items-center md:items-start text-center md:text-left">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black leading-tight">
+          <span className="flex items-center bg-white shadow-sm text-gray-600 mb-4">
+            <Image
+              src="/icons/typcn_flash.png"
+              alt="Flash icon"
+              width={24}
+              height={24}
+              className="inline-block mr-2"
+            />
+            <small>4.4K+ Techies in Less Than 24 Months</small>
+          </span>
+          <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black leading-tight">
             You no longer have to ride <br className="hidden md:block" />
             the techies’ turbulent waves alone
           </h1>
