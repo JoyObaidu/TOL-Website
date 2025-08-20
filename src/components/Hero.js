@@ -8,56 +8,56 @@ export default function Hero() {
       <Navbar />
 
       {/* Grid: Content + Image */}
-      <div className="relative z-10 top-30 md:top-20 grid grid-cols-1 md:grid-cols-2 gap-8 items-center w-full max-full">
-      {/* Blur bbackground  images */}
+      <div className="relative z-10 top-20 md:top-20 grid grid-cols-1 md:grid-cols-2 gap-8 items-center w-full max-full">
+        {/* Blur bbackground  images */}
         <Image
-        src="/Bulb 2.png"
-        width={116.1}
-        height={129.63}
-        alt="bulb"
-        className="hidden md:block absolute top-0.5 left-10/12 opacity-70 z-30"
+          src="/Bulb 2.png"
+          width={116.1}
+          height={129.63}
+          alt="bulb"
+          className="hidden md:block absolute top-0.5 left-10/12 opacity-70 z-30"
         />
 
-         <Image
-        src="/Bulb 2.png"
-        width={129.26}
-        height={144.33}
-        alt="bulb"
-        className="hidden md:block absolute top-20 left-6/12 opacity-70"
+        <Image
+          src="/Bulb 2.png"
+          width={129.26}
+          height={144.33}
+          alt="bulb"
+          className="hidden md:block absolute top-20 left-6/12 opacity-70"
         />
 
-         <Image
-        src="/Goal 2.png"
-        width={227}
-        height={198}
-        alt="goal1"
-        className="absolute top-12 left-14 md:top-11/12 md:-left-44 opacity-100"
+        <Image
+          src="/Goal 2.png"
+          width={227}
+          height={198}
+          alt="goal1"
+          className="absolute top-4/6 left-2/6 md:top-11/12 md:-left-44 opacity-100"
         />
 
-         <Image
-        src="/Goal 2.png"
-        width={250}
-        height={217}
-        alt="goal2"
-        className="hidden md:block absolute top-64 left-9/12 opacity-70"
+        <Image
+          src="/Goal 2.png"
+          width={250}
+          height={217}
+          alt="goal2"
+          className="hidden md:block absolute top-64 left-9/12 opacity-70"
         />
 
-         <Image
-        src="/Rocket 1.png"
-        width={141.66}
-        height={223.26}
-        alt="rocket"
-        className="hidden md:block absolute top-12/12 left-6/12 opacity-30"
+        <Image
+          src="/Rocket 1.png"
+          width={141.66}
+          height={223.26}
+          alt="rocket"
+          className="hidden md:block absolute top-12/12 left-6/12 opacity-30"
         />
 
-         <Image
-        src="/image 12.png"
-        width={129.26}
-        height={144.33}
-        alt="rocket"
-        className="hidden md:block absolute md:top-12/12 md:-right-20 opacity-90"
+        <Image
+          src="/image 12.png"
+          width={129.26}
+          height={144.33}
+          alt="rocket"
+          className="hidden md:block absolute md:top-12/12 md:-right-20 opacity-90"
         />
-           {/* Left: Content */}
+        {/* Left: Content */}
         <div className="flex flex-col justify-center items-center md:items-start text-center md:text-left">
           <span className="flex items-center bg-white shadow-sm text-gray-600 mb-4">
             <Image
@@ -78,12 +78,11 @@ export default function Hero() {
             Connect, collaborate and grow with us
           </p>
 
-          <div className="mt-6 md:mt-8 flex flex-col sm:flex-row gap-4 flex-wrap justify-center md:justify-start">
+          <div className="mt-4 md:mt-8 flex flex-wrap justify-center gap-8 md:flex-col md:gap-4 md:justify-start">
             <Button
               variant="primary"
               size="lg"
-              style={{ width: "200px", height: "56px" }}
-              className="rounded-full px-8 sm:px-14"
+              className="w-[180px] h-10 rounded-full md:px-8"
             >
               Join Us
             </Button>
@@ -91,8 +90,7 @@ export default function Hero() {
             <Button
               variant="outline"
               size="lg"
-              style={{ width: "200px", height: "56px" }}
-              className="rounded-full px-8 sm:px-14"
+              className="w-[180px] h-10 rounded-full text-blue-600 px-8 sm:px-14"
             >
               Explore Clubs
             </Button>
@@ -112,9 +110,9 @@ export default function Hero() {
           <Image
             src="/TOL Imge 1 (1).png"
             alt="Hero"
-            width={381}
-            height={309}
-            className="md:hidden object-contain w-52 md:w-[381px] h-auto z-20"
+            width={437}
+            height={324}
+            className="md:hidden object-contain w-full md:w-[381px] h-auto z-30"
             priority
           />
         </div>
