@@ -20,9 +20,9 @@ export default function Home() {
       <WhyYouShouldJoin />
       <Bootcamp />
       <RecommendedJobs />
+      <UpcomingEvents />
       <TeamSection />
       <TestimonialsSection />
-      <UpcomingEvents />
       <Gallery />
     </div>
   );
