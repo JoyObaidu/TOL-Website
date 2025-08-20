@@ -1,3 +1,5 @@
+"use client";
+
 import Carousel from "@/components/ui/Carousel";
 
 export default function Bootcamp() {
@@ -8,8 +10,13 @@ export default function Bootcamp() {
   ];
 
   return (
-    <section className="relative max-w-7xl md:max-w-fit text-center z-10 py-10">
-      <h3 className="text-2xl font-semibold text-center mb-6">Upcoming Bootcamps</h3>
+    <section className="relative bg-gray-50 w-full mx-auto px-6 py-12 z-10">
+      {/* Heading */}
+      <h3 className="text-3xl md:text-4xl font-sectionHead font-semibold text-left mb-4">
+        Upcoming Bootcamps
+      </h3>
+
+      {/* Carousel */}
       <Carousel
         images={images}
         leftArrow="/icons/previous.png"

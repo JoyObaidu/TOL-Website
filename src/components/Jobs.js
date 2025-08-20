@@ -4,10 +4,11 @@ import JobCard from "@/components/ui/JobCard";
 const jobs = [
   {
     id: 1,
-    title: "Frontend Developer",
-    company: "TechCorp",
-    location: "New York, NY",
+    title: "UI/UX Designer",
+    company: "Samp Inc",
+    location: "Ikeja Lagos, Nigeria",
     logo: "/logos/company1.png",
+    price: "N500,000",
   },
   {
     id: 2,
@@ -15,6 +16,7 @@ const jobs = [
     company: "InnovateX",
     location: "San Francisco, CA",
     logo: "/logos/company2.png",
+    price: "N500,000",
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ const jobs = [
     company: "DesignHub",
     location: "Remote",
     logo: "/logos/company3.png",
+    price: "N500,000",
   },
   {
     id: 4,
@@ -29,6 +32,7 @@ const jobs = [
     company: "DataWorks",
     location: "Boston, MA",
     logo: "/logos/company4.png",
+    price: "N500,000",
   },
   {
     id: 5,
@@ -36,6 +40,7 @@ const jobs = [
     company: "NextGen",
     location: "Austin, TX",
     logo: "/logos/company5.png",
+    price: "N500,000",
   },
   {
     id: 6,
@@ -43,12 +48,13 @@ const jobs = [
     company: "Cloudify",
     location: "Seattle, WA",
     logo: "/logos/company6.png",
+    price: "N500,000",
   },
 ];
 
 export default function RecommendedJobs() {
   return (
-    <section className="py-12 bg-gray-50 text-center">
+    <section className="py-12 px-6 w-full bg-blue-50 text-center">
       <h2 className="text-3xl font-semibold mb-10">Recommended Jobs</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -56,10 +62,7 @@ export default function RecommendedJobs() {
           <JobCard key={job.id} job={job} />
         ))}
       </div>
-
-      <button className="mt-10 px-8 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition">
-        See More
-      </button>
+      
     </section>
   );
 }

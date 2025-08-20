@@ -15,8 +15,8 @@ const Card = ({ icon, title, description, className, iconClassName }) => {
           className={`mb-4 ${iconClassName || ""}`} 
         />
       )}
-      <h3 className="text-xl font-semibold mb-2">{title}</h3>
-      <p className="text-gray-700">{description}</p>
+      <h3 className="text-xl font-sectionHead font-semibold mb-2">{title}</h3>
+      <p className="text-gray-700 font-body text-xl-center">{description}</p>
     </div>
   );
 };

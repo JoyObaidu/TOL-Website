@@ -57,9 +57,10 @@ export default function Hero() {
           alt="rocket"
           className="hidden md:block absolute md:top-12/12 md:-right-20 opacity-90"
         />
+
         {/* Left: Content */}
-        <div className="flex flex-col justify-center items-center md:items-start text-center md:text-left">
-          <span className="flex items-center bg-white shadow-sm text-gray-600 mb-4">
+        <div className="flex flex-col justify-start items-start md:items-start text-left">
+          <span className="flex items-center rounded-full px-5 bg-white shadow-sm text-gray-600 mb-4">
             <Image
               src="/icons/typcn_flash.png"
               alt="Flash icon"
@@ -67,22 +68,22 @@ export default function Hero() {
               height={24}
               className="inline-block mr-2"
             />
-            <small>4.4K+ Techies in Less Than 24 Months</small>
+            <small className="font-body">4.4K+ Techies in Less Than 24 Months</small>
           </span>
-          <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black leading-tight">
+          <h1 className="text-3xl font-grotesk md:text-4xl lg:text-5xl text-black leading-tight">
             You no longer have to ride <br className="hidden md:block" />
             the techies’ turbulent waves alone
           </h1>
 
-          <p className="mt-4 text-sm sm:text-base md:text-lg lg:text-xl text-gray-900">
+          <p className="mt-4 font-body text-sm sm:text-base md:text-lg lg:text-xl text-gray-900">
             Connect, collaborate and grow with us
           </p>
-
-          <div className="mt-4 md:mt-8 flex flex-wrap justify-center gap-8 md:flex-col md:gap-4 md:justify-start">
+          {/* Buttons */}
+          <div className="mt-4 font-body md:mt-8 flex flex-row flex-wrap justify-center gap-4 md:flex-col md:gap-4 md:justify-start">
             <Button
               variant="primary"
               size="lg"
-              className="w-[180px] h-10 rounded-full md:px-8"
+              className="h-10 rounded-full md:px-8"
             >
               Join Us
             </Button>
@@ -90,7 +91,7 @@ export default function Hero() {
             <Button
               variant="outline"
               size="lg"
-              className="w-[180px] h-10 rounded-full text-blue-600 px-8 sm:px-14"
+              className="h-10 rounded-full text-blue-600 sm:px-14"
             >
               Explore Clubs
             </Button>
@@ -98,7 +99,7 @@ export default function Hero() {
         </div>
 
         {/* Right: Image */}
-        <div className="flex justify-center md:justify-end">
+        <div className="flex justify-center mt- md:justify-end">
           <Image
             src="/hero-img.png"
             alt="Hero"
@@ -110,9 +111,9 @@ export default function Hero() {
           <Image
             src="/TOL Imge 1 (1).png"
             alt="Hero"
-            width={437}
-            height={324}
-            className="md:hidden object-contain w-full md:w-[381px] h-auto z-30"
+            width={440}
+            height={330}
+            className="md:hidden relative top-3 object-contain w-screen h-auto z-30"
             priority
           />
         </div>
