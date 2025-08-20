@@ -24,6 +24,7 @@ export default function Home() {
       <TeamSection />
       <TestimonialsSection />
       <Gallery />
+      <Footer />
     </div>
   );
 }
