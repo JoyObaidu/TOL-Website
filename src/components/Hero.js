@@ -9,19 +9,53 @@ export default function Hero() {
 
       {/* Grid: Content + Image */}
       <div className="relative z-10 top-30 md:top-20 grid grid-cols-1 md:grid-cols-2 gap-8 items-center w-full max-full">
-      
+      {/* Blur bbackground  images */}
         <Image
         src="/Bulb 2.png"
-        width={24}
-        height={24}
+        width={116.1}
+        height={129.63}
         alt="bulb"
+        className="hidden md:block absolute top-0.5 left-10/12 opacity-70 z-30"
         />
 
          <Image
         src="/Bulb 2.png"
-        width={24}
-        height={24}
+        width={129.26}
+        height={144.33}
         alt="bulb"
+        className="hidden md:block absolute top-20 left-6/12 opacity-70"
+        />
+
+         <Image
+        src="/Goal 2.png"
+        width={227}
+        height={198}
+        alt="goal1"
+        className="absolute top-12 left-14 md:top-11/12 md:-left-44 opacity-100"
+        />
+
+         <Image
+        src="/Goal 2.png"
+        width={250}
+        height={217}
+        alt="goal2"
+        className="hidden md:block absolute top-64 left-9/12 opacity-70"
+        />
+
+         <Image
+        src="/Rocket 1.png"
+        width={141.66}
+        height={223.26}
+        alt="rocket"
+        className="hidden md:block absolute top-12/12 left-6/12 opacity-30"
+        />
+
+         <Image
+        src="/image 12.png"
+        width={129.26}
+        height={144.33}
+        alt="rocket"
+        className="hidden md:block absolute md:top-12/12 md:-right-20 opacity-90"
         />
            {/* Left: Content */}
         <div className="flex flex-col justify-center items-center md:items-start text-center md:text-left">
@@ -72,7 +106,15 @@ export default function Hero() {
             alt="Hero"
             width={381}
             height={309}
-            className="object-contain w-52 md:w-[381px] h-auto"
+            className="hidden md:block object-contain w-52 md:w-[381px] h-auto z-20"
+            priority
+          />
+          <Image
+            src="/TOL Imge 1 (1).png"
+            alt="Hero"
+            width={381}
+            height={309}
+            className="md:hidden object-contain w-52 md:w-[381px] h-auto z-20"
             priority
           />
         </div>
