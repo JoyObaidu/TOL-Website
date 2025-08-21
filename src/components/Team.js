@@ -2,18 +2,18 @@
 import TeamMemberCard from "@/components/ui/TeammemeberCard";
 
 const teamMembers = [
-  { id: 1, name: "Alice Johnson", role: "CEO", photo: "/team/alice.jpg" },
-  { id: 2, name: "Bob Smith", role: "CTO", photo: "/team/bob.jpg" },
-  { id: 3, name: "Carol White", role: "Lead Designer", photo: "/team/carol.jpg" },
-  { id: 4, name: "David Lee", role: "Backend Engineer", photo: "/team/david.jpg" },
-  { id: 5, name: "Eva Green", role: "Frontend Engineer", photo: "/team/eva.jpg" },
-  { id: 6, name: "Frank Brown", role: "Product Manager", photo: "/team/frank.jpg" },
-  { id: 7, name: "Grace Kim", role: "Marketing Lead", photo: "/team/grace.jpg" },
-  { id: 8, name: "Henry Wilson", role: "QA Engineer", photo: "/team/henry.jpg" },
-  { id: 9, name: "Ivy Adams", role: "HR Manager", photo: "/team/ivy.jpg" },
-  { id: 10, name: "Jack Taylor", role: "DevOps Engineer", photo: "/team/jack.jpg" },
-  { id: 11, name: "Karen Scott", role: "UI/UX Designer", photo: "/team/karen.jpg" },
-  { id: 12, name: "Leo Martin", role: "Data Analyst", photo: "/team/leo.jpg" },
+  { id: 1, name: "John Confidence Bello", role: "Community Team Lead", photo: "/team-photos/bello.png" },
+  { id: 2, name: "Wallah Waiji Precious", role: "Assistant Team Lead", photo: "/team-photos/precious.jpg" },
+  { id: 3, name: "Mariam Bolatito Lawal", role: "Social Media Manager", photo: "/team-photos/mariam.jpg" },
+  { id: 4, name: "Agwo Inalegwu James", role: "Cybersecurity Professional", photo: "/team-photos/james.jpg" },
+  { id: 5, name: " Deji Adenugba.jpg", role: "Product Manager", photo: "/team-photos/deji.jpg" },
+  { id: 6, name: "Frank Brown", role: "Product Manager", photo: "/team-photos/oluwatobi.jpg" },
+  { id: 7, name: "Grace Kim", role: "Marketing Lead", photo: "/team-photos/Joy.jpg" },
+  { id: 8, name: "Henry Wilson", role: "QA Engineer", photo: "/team-photos/damilola.jpg" },
+  { id: 9, name: "Ivy Adams", role: "HR Manager", photo: "/team-photos/amarachi.jpg" },
+  { id: 10, name: "Jack Taylor", role: "DevOps Engineer", photo: "/team-photos/oluwaponmile.jpg" },
+  { id: 11, name: "Karen Scott", role: "UI/UX Designer", photo: "/team-photos/joy.jpg" },
+  { id: 12, name: "Leo Martin", role: "Data Analyst", photo: "/team-photos/deji.jpg" },
 ];
 
 export default function TeamSection() {
