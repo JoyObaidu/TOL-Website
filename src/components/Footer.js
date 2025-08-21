@@ -5,17 +5,15 @@ import Image from "next/image";
 const navLinks = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
-  { name: "Services", href: "/services" },
-  { name: "Events", href: "/events" },
+  { name: "Works", href: "/works" }, 
   { name: "Contact", href: "/contact" },
 ];
 
 // Place your social icons in /public/icons/
 const socialLinks = [
-  { src: "/icons/facebook.png", alt: "Facebook", href: "https://facebook.com" },
-  { src: "/icons/twitter.png", alt: "Twitter", href: "https://twitter.com" },
-  { src: "/icons/linkedin.png", alt: "LinkedIn", href: "https://linkedin.com" },
-  { src: "/icons/instagram.png", alt: "Instagram", href: "https://instagram.com" },
+  { src: "/logos/twitter.png", alt: "Facebook", href: "https://facebook.com" },
+  { src: "/logos/logo-instagram 1.png", alt: "Twitter", href: "https://twitter.com" },
+  { src: "/logos/linkedin-logo.png", alt: "LinkedIn", href: "https://linkedin.com" },
 ];
 
 export default function Footer() {
@@ -44,16 +42,16 @@ export default function Footer() {
           </ul>
         </div>
 
+        <hr className="my-6 border-gray-700" />
         {/* Social Media */}
         <div>
-          <h3 className="text-lg font-semibold text-white mb-4">Follow Us</h3>
           <div className="flex space-x-4">
             {socialLinks.map((social, index) => (
               <Link
                 key={index}
                 href={social.href}
                 target="_blank"
-                className="p-2 bg-gray-700 rounded-full hover:bg-blue-600 transition flex items-center justify-center"
+                className="p-2 rounded-full hover:bg-blue-600 transition flex items-center justify-center"
               >
                 <Image
                   src={social.src}
@@ -66,11 +64,11 @@ export default function Footer() {
             ))}
           </div>
         </div>
-      </div>
 
-      {/* Bottom Copyright */}
-      <div className="mt-10 border-t border-gray-700 pt-6 text-center text-gray-500 text-sm">
-        © {new Date().getFullYear()} Techies. All rights reserved.
+        {/* Copyright */}
+        <div className="mt-10 pt-6 text-center text-gray-400 text-sm">
+          © {new Date().getFullYear()} Techies. All rights reserved.
+        </div>
       </div>
     </footer>
   );
