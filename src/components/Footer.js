@@ -5,7 +5,7 @@ import Image from "next/image";
 const navLinks = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
-  { name: "Works", href: "/works" }, 
+  { name: "Works", href: "/works" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -42,7 +42,6 @@ export default function Footer() {
           </ul>
         </div>
 
-        <hr className="my-6 border-gray-700" />
         {/* Social Media */}
         <div>
           <div className="flex space-x-4">
@@ -64,9 +63,23 @@ export default function Footer() {
             ))}
           </div>
         </div>
+      </div>
 
-        {/* Copyright */}
-        <div className="mt-10 pt-6 text-center text-gray-400 text-sm">
+      {/* Divider */}
+      <hr className="my-6 border-gray-700" />
+
+      {/* Bottom Row: Privacy + Terms + Copyright */}
+      <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm space-y-4 md:space-y-0">
+        <div className="flex space-x-4">
+          <Link href="/privacy" className="hover:text-white transition">
+            Privacy Policy
+          </Link>
+          <span>|</span>
+          <Link href="/terms" className="hover:text-white transition">
+            Terms & Conditions
+          </Link>
+        </div>
+        <div>
           © {new Date().getFullYear()} Techies. All rights reserved.
         </div>
       </div>

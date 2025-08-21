@@ -8,7 +8,7 @@ export default function JobCard({ job }) {
       <div className="flex justify-between items-start">
         {/* Logo + Info */}
         <div className="flex">
-          <div className="w-20 h-20 bg-gray-100 rounded-2xl relative flex-shrink-0">
+          <div className="w-20 h-20 bg-gray-100 rounded-full relative flex-shrink-0">
             <Image
               src={job.logo}
               alt={job.company}
@@ -16,7 +16,7 @@ export default function JobCard({ job }) {
               className="object-contain p-2"
             />
           </div>
-          <div className="flex flex-col gap-1 ml-4">
+          <div className="w-full flex flex-col justify-start items-left gap-1 ml-4">
             <h3 className="text-xl font-semibold">{job.title}</h3>
             <p className="text-gray-600">{job.company}</p>
           </div>

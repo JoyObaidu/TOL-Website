@@ -18,7 +18,7 @@ export default function Gallery() {
         ))}
       </div>
 
-      <button className="border border-gray-500 p-3 rounded-3xl mt-5 text-center">View More Images</button>
+      <button className="border border-gray-500 py-3 px-5 rounded-2xl mt-5 text-center">View More Images</button>
     </section>
   );
 }
