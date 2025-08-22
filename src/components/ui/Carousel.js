@@ -42,13 +42,13 @@ export default function Carousel({ images, leftArrow, rightArrow }) {
       <div className="flex justify-center gap-4 mt-4">
         <button
           onClick={() => goToSlide("prev")}
-          className="hover:scale-105 transition"
+          className="hover:scale-90 hover:bg-blue-500 hover:p-3 hover:rounded-full transition cursor-pointer"
         >
           <Image src={leftArrow} alt="Previous" width={24} height={24} />
         </button>
         <button
           onClick={() => goToSlide("next")}
-          className="hover:scale-105 transition"
+          className=" hover:scale-90 hover:bg-blue-500 hover:p-3 hover:rounded-full transition cursor-pointer"
         >
           <Image src={rightArrow} alt="Next" width={24} height={24} />
         </button>

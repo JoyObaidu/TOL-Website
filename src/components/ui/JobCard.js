@@ -16,7 +16,7 @@ export default function JobCard({ job }) {
               className="object-contain p-2"
             />
           </div>
-          <div className="w-full flex flex-col justify-start items-left gap-1 ml-4">
+          <div className="w-full flex flex-col justify-start items-start gap-1 ml-4">
             <h3 className="text-xl font-semibold">{job.title}</h3>
             <p className="text-gray-600">{job.company}</p>
           </div>

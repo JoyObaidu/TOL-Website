@@ -21,6 +21,7 @@ export default function Bootcamp() {
         images={images}
         leftArrow="/icons/previous.png"
         rightArrow="/icons/next.png"
+        className="cursor-pointer"
       />
     </section>
   );

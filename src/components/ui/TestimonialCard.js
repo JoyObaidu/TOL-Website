@@ -20,16 +20,11 @@ export default function TestimonialCard({ name, role, image, quote }) {
       <p className="mt-3 text-gray-700 text-sm">{quote}</p>
 
       {/* Rating Stars */}
-      <div className="mt-4 flex justify-between w-full px-6">
-        {/* Left stars */}
-        <div className="flex space-x-1">
+      <div className="mt-4 flex justify-center gap-2 w-full px-6">
+        <div className="flex">
           <Image src="/icons/solar_star-bold.png" alt="star" width={18} height={18} />
           <Image src="/icons/solar_star-bold.png" alt="star" width={18} height={18} />
-          <Image src="/icons/solar_star-bold.png" alt="star" width={18} height={18} />
-        </div>
-
-        {/* Right stars */}
-        <div className="flex space-x-1">
+          <Image src="/icons/solar_star-bold.png" alt="star" width={20} height={20} />
           <Image src="/icons/solar_star-bold.png" alt="star" width={18} height={18} />
           <Image src="/icons/solar_star-bold.png" alt="star" width={18} height={18} />
         </div>
