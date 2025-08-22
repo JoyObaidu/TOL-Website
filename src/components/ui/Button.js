@@ -14,7 +14,7 @@ export default function Button({
     secondary: "bg-gray-200 text-gray-600 hover:bg-gray-300",
     outline:
       "border border-blue-400 text-blue-600 hover:bg-blue-100 bg-transparent",
-  };
+    };
 
   // Sizes
   const sizes = {

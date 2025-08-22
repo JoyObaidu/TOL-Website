@@ -1,12 +1,12 @@
 import Image from "next/image";
-import Card from "./ui/Card";
+import Card from "./ui/WhatWeDoCard";
 
 export default function JoinUs() {
   return (
-    <section className="relative w-full md:max-w-7xl mx-auto text-left py-10 px-6 md:px-20">
+    <section className="relative w-full md:max-w-7xl mx-auto text-center py-10 px-6 md:px-20">
       <h3 className="text-2xl md:text-3xl font-sectionTitle font-semibold mb-8">Why you Should Join Us?</h3>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10">
+      <div className="grid grid-cols-1 font-body sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10">
         <Card
           icon="/icons/envelope.png"
           title="Find Jobs & Internships"

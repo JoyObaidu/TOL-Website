@@ -31,7 +31,7 @@ const events = [
 export default function UpcomingEvents() {
   return (
     <section className="w-full px-6 py-12 bg-white text-left">
-      <h2 className="text-3xl font-semibold mb-12">Upcoming Events</h2>
+      <h2 className="text-3xl font-semibold text-center mb-12">Upcoming Events</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-7xl mx-auto">
         {events.map((event) => (

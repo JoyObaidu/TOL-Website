@@ -8,7 +8,7 @@ export default function GalleryCard({ image, event }) {
         alt={image.alt}
         fill
         style={{ objectFit: "cover" }}
-        className="hover:scale-110 transition-transform duration-300"
+        className="hover:scale-110 transition-transform rounded-2xl duration-300"
       />
 
       {/* Overlay */}

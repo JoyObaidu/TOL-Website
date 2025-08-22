@@ -4,11 +4,11 @@ import Navbar from "./Navbar";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen bg-[url('/Gradient.png')] bg-cover bg-center flex flex-col justify-between items-center gap-y-16 md:gap-y-24 p-6 md:p-10 lg:p-20">
+    <section className="min-h-screen bg-[url('/Gradient.png')] bg-cover bg-center flex flex-col justify-start items-center gap-y-10 md:gap-y-16 p-6 md:p-10 lg:p-20">
       <Navbar />
 
       {/* Grid: Content + Image */}
-      <div className="relative z-10 pt-20 md:pt-24 grid grid-cols-1 md:grid-cols-2 gap-8 items-center w-full max-full">
+      <div className="relative z-10 pt-20 md:pt-24 grid grid-cols-1 md:grid-cols-2 gap-8 items-center w-full">
         {/* Blur bbackground  images */}
         <Image
           src="/Bulb 2.png"
@@ -31,7 +31,7 @@ export default function Hero() {
           width={227}
           height={198}
           alt="goal1"
-          className="absolute top-4/6 left-2/6 md:top-11/12 md:-left-44 opacity-100"
+          className="absolute opacity-100 top-4/6 left-2/6 md:top-11/12 md:-left-48"
         />
 
         <Image
@@ -99,7 +99,7 @@ export default function Hero() {
         </div>
 
         {/* Right: Image */}
-        <div className="flex justify-center mt- md:justify-end">
+        <div className="flex justify-center md:justify-end">
           <Image
             src="/hero-img.png"
             alt="Hero"
@@ -108,6 +108,8 @@ export default function Hero() {
             className="hidden md:block object-contain w-52 md:w-[381px] h-auto z-20"
             priority
           />
+
+          {/* Mobile img */}
           <Image
             src="/TOL Imge 1 (1).png"
             alt="Hero"

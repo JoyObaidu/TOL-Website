@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function WhatWeDo() {
   return (
-    <section className="min-h-screen md:bg-white bg-gray-200 bg-cover bg-center flex flex-col justify-center items-center py-20 px-6 md:py-20 md:px-20 gap-y-10">
+    <section className="min-h-screen md:bg-white bg-gray-200 bg-cover bg-center flex flex-col justify-center items-center py-10 px-6 md:py-20 md:px-20 gap-y-10">
       {/* Heading */}
       <p className="text-lg md:text-xl font-body text-gray-700">
         What Do We Do
