@@ -10,7 +10,7 @@ export default function EventCard({ event }) {
   ];
 
   return (
-    <div className="w-full  py-6 flex flex-col h-100">
+    <div className="w-full py-6 flex flex-col h-100">
       <div className="w-full h-40 relative mb-4">
         <Image
           src={event.image}
@@ -23,7 +23,7 @@ export default function EventCard({ event }) {
 
       <div className="w-full">
           <div className="w-full flex justify-between">
-            <h3 className="text-xl font-semibold mb-2">{event.title}</h3>
+            <h3 className="text-lg md:text-xl font-semibold mb-2">{event.title}</h3>
             <Button variant="primary" size="sm">
               Register
             </Button>

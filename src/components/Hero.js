@@ -8,7 +8,7 @@ export default function Hero() {
       <Navbar />
 
       {/* Grid: Content + Image */}
-      <div className="relative z-10 top-20 md:top-20 grid grid-cols-1 md:grid-cols-2 gap-8 items-center w-full max-full">
+      <div className="relative z-10 pt-20 md:pt-24 grid grid-cols-1 md:grid-cols-2 gap-8 items-center w-full max-full">
         {/* Blur bbackground  images */}
         <Image
           src="/Bulb 2.png"

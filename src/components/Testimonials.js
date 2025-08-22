@@ -31,13 +31,12 @@ export default function TestimonialSection() {
   return (
     <section className="py-16 bg-blue-50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold mb-12">Testimonials</h2>
+        <h2 className="text-2xl md:text-4xl font-bold mb-12">Testimonials</h2>
 
         {/* Scrolling wrapper */}
         <div className="relative w-full overflow-hidden">
           <div className="flex gap-8 animate-scroll">
-            {/* duplicate testimonials for smooth loop */}
-            {[...testimonials, ...testimonials].map((testimonial, idx) => (
+            {testimonials.map((testimonial, idx) => (
               <div key={idx} className="w-72 flex-shrink-0">
                 <TestimonialCard {...testimonial} />
               </div>
